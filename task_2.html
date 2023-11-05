@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="demo1"></h1>
+    <script>
+        var x=prompt("inter the mark you git")
+        
+        if(x<50)
+        {
+            document.getElementById("demo1").innerHTML= "FAIL";
+
+
+
+        }
+        else if(x>=50 & x<59){
+            document.getElementById("demo1").innerHTML="D";
+        }
+        else if(x>=60 & x<69){
+            document.getElementById("demo1").innerHTML="C";
+        }
+        else if(x>=70 & x<79){
+            document.getElementById("demo1").innerHTML="B";
+        }
+        else if(x>=80 & x<89){
+            document.getElementById("demo1").innerHTML="A";
+        }
+        else if(x>=90 & x<=100){
+            document.getElementById("demo1").innerHTML="A+";
+        }
+        else{
+            document.getElementById("demo1").innerHTML="Wrong input";
+        
+        }
+    </script>
+</body>
+</html>
